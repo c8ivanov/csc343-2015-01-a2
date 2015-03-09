@@ -1,7 +1,6 @@
 SET search_path TO imdb;
 
 \echo Correctly deduplicate multiple acting hattricks (non-disjoint)
-\echo Expected:          1 | Pitt, Brad |  2001 | Correct movie |  2002 | Correct movie |  2003 | Correct movie
 
 INSERT INTO people VALUES (1, 'Pitt, Brad');
 

@@ -1,10 +1,6 @@
 SET search_path TO imdb;
 
 \echo Include super writers with movies in different decades, exclude writers with non-super movies in different decades
-\echo Expected: 
-\echo Writer, Super                | A 1974 Movie, super |      5 | 1970s
-\echo Writer, Super (cross decade) | A 1974 Movie, super |      5 | 1970s
-\echo Writer, Super (cross decade) | A 2015 Movie, super |      4 | 2010s
 
 INSERT INTO movies VALUES (1, 'A 1970 Movie, non-super', 1970, 3.0);
 INSERT INTO movies VALUES (2, 'A 1974 Movie, super', 1974, 5.0);

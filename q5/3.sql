@@ -1,7 +1,6 @@
 SET search_path TO imdb;
 
 \echo Correctly reduce appearances in multiple movies within one year to the movie with the title that comes first alphabetically
-\echo Expected:          1 | Pitt, Brad |  2000 | Correct movie |  2001 | Correct movie |  2002 | Correct movie
 
 INSERT INTO people VALUES (1, 'Pitt, Brad');
 
