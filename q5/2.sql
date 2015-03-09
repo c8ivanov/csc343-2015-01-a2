@@ -1,9 +1,6 @@
 SET search_path TO imdb;
 
 \echo Correctly assign 3-tuples of movies to actors. Sort by person_id ascending.
-\echo Expected:
-\echo          1 | Pitt, Brad   |  2000 | A movie |  2001 | A movie |  2002 | A movie
-\echo          2 | Depp, Johnny |  2008 | A movie |  2009 | A movie |  2010 | A movie
 
 INSERT INTO people VALUES (1, 'Pitt, Brad');
 

@@ -1,7 +1,6 @@
 SET search_path TO imdb;
 
 \echo Detect a single actor appearing in movies for three consecutive years
-\echo Expected:          1 | Pitt, Brad |  2000 | A movie |  2001 | A movie |  2002 | A movie 
 
 INSERT INTO people VALUES (1, 'Pitt, Brad');
 

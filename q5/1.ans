@@ -1,0 +1,5 @@
+ person_id |    name    | year1 | movie1  | year2 | movie2  | year3 | movie3  
+-----------+------------+-------+---------+-------+---------+-------+---------
+         1 | Pitt, Brad |  2000 | A movie |  2001 | A movie |  2002 | A movie
+(1 row)
+

@@ -1,0 +1,7 @@
+            writer            |     supermovie      | rating | decade 
+------------------------------+---------------------+--------+--------
+ Writer, Super                | A 1974 Movie, super |      5 | 1970s
+ Writer, Super (cross decade) | A 1974 Movie, super |      5 | 1970s
+ Writer, Super (cross decade) | A 2015 Movie, super |      4 | 2010s
+(3 rows)
+

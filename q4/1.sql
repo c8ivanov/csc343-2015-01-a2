@@ -1,7 +1,6 @@
 SET search_path TO imdb;
 
 \echo Simple setup
-\echo Expected: Writer, Super | A 1974 Movie, super |      5 | 1970s
 
 INSERT INTO movies VALUES (1, 'A 1970 Movie, non-super', 1970, 3.0);
 INSERT INTO movies VALUES (2, 'A 1974 Movie, super', 1974, 5.0);
